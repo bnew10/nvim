@@ -23,6 +23,8 @@ source $HOME/.config/nvim/vimscript/vista.vim
 source $HOME/.config/nvim/vimscript/rainbow.vim
 " vim-commentary
 source $HOME/.config/nvim/vimscript/commentary.vim
+" start screen
+source $HOME/.config/nvim/vimscript/startify.vim
 
 
 " ===== THEMES =====

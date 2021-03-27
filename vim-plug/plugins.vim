@@ -36,6 +36,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vista.vim'
     " colorize parens, brackets, etc. based on nesting level
     Plug 'junegunn/rainbow_parentheses.vim'
+    " nice start screen
+    Plug 'mhinz/vim-startify'
 
 
     " ===== THEMES =====
