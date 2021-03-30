@@ -13,7 +13,7 @@ source $HOME/.config/nvim/vimscript/coc.vim
 source $HOME/.config/nvim/vimscript/quick-scope.vim
 " fzf
 source $HOME/.config/nvim/vimscript/fzf.vim
-" zoomwintab 
+" zoomwintab
 source $HOME/.config/nvim/vimscript/zoomwintab.vim
 " ctrlp
 source $HOME/.config/nvim/vimscript/ctrlp.vim
@@ -25,6 +25,8 @@ source $HOME/.config/nvim/vimscript/rainbow.vim
 source $HOME/.config/nvim/vimscript/commentary.vim
 " start screen
 source $HOME/.config/nvim/vimscript/startify.vim
+" colorizer
+lua require'colorizer'
 
 
 " ===== THEMES =====
