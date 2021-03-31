@@ -41,3 +41,4 @@ set listchars=tab:▸\ ,eol:¬             " Visualize tabs and newlines
 set inccommand=nosplit                  " shows the effects of substitute (and others) as you type
 set pastetoggle=<F2>                    " toggles paste mode
 set matchpairs+=<:>                     " add < > pairs to % command
+set termguicolors                       " Enables 24-bit RGB color in the TUI

@@ -27,8 +27,6 @@ source $HOME/.config/nvim/vimscript/commentary.vim
 source $HOME/.config/nvim/vimscript/startify.vim
 " ranger
 source $HOME/.config/nvim/vimscript/ranger.vim
-" colorizer
-lua require'colorizer'.setup()
 
 
 " ===== THEMES =====
