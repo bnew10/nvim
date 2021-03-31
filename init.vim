@@ -25,8 +25,10 @@ source $HOME/.config/nvim/vimscript/rainbow.vim
 source $HOME/.config/nvim/vimscript/commentary.vim
 " start screen
 source $HOME/.config/nvim/vimscript/startify.vim
+" ranger
+source $HOME/.config/nvim/vimscript/ranger.vim
 " colorizer
-lua require'colorizer'
+lua require'colorizer'.setup()
 
 
 " ===== THEMES =====

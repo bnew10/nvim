@@ -40,6 +40,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify'
     " inline colorizer for color codes
     Plug 'norcalli/nvim-colorizer.lua'
+    " plugin for ranger integration
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 
     " ===== THEMES =====
