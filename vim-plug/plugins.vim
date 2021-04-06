@@ -22,8 +22,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'troydm/zoomwintab.vim'
     " Conquerer of Completion
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    " add/delete/replace quotes, brackets, parens, etc.
-    Plug 'machakann/vim-sandwich'
     " quicker navigation left/right on a line
     Plug 'unblevable/quick-scope'
     " Full path fuzzy file, buffer, mru, tag, ... finder
@@ -42,6 +40,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'norcalli/nvim-colorizer.lua'
     " plugin for ranger integration
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    " like quick-scope but for vertical cursor movement
+    Plug 'justinmk/vim-sneak'
+    " common config for neovim lsp
+    " Plug 'neovim/nvim-lspconfig'
 
 
     " ===== THEMES =====
