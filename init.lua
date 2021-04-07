@@ -32,6 +32,8 @@ vim.cmd('source $HOME/.config/nvim/vimscript/startify.vim')
 vim.cmd('source $HOME/.config/nvim/vimscript/ranger.vim')
 -- sneak
 vim.cmd('source $HOME/.config/nvim/vimscript/sneak.vim')
+-- signify
+vim.cmd('source $HOME/.config/nvim/vimscript/signify.vim')
 
 
 -- THEMES onedark theme

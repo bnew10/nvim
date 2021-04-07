@@ -42,6 +42,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     " like quick-scope but for vertical cursor movement
     Plug 'justinmk/vim-sneak'
+    " shows added, modified, or removed lines for git
+    Plug 'mhinz/vim-signify'
     " common config for neovim lsp
     " Plug 'neovim/nvim-lspconfig'
 
