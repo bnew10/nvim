@@ -43,7 +43,7 @@ return require('packer').startup(function()
   -- colorize parens, brackets, etc. based on nesting level
   use 'junegunn/rainbow_parentheses.vim'
   -- nice start screen
-  use 'mhinz/vim-startify'
+  use 'glepnir/dashboard-nvim'
   -- inline colorizer for color codes
   use 'norcalli/nvim-colorizer.lua'
   -- plugin for ranger integration
@@ -52,6 +52,11 @@ return require('packer').startup(function()
   use 'justinmk/vim-sneak'
   -- shows added, modified, or removed lines for git
   use 'mhinz/vim-signify'
+  -- highly extendable fuzzy finder over lists
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+  }
   -- common config for neovim lsp
   -- use 'neovim/nvim-lspconfig'
 

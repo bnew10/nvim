@@ -9,6 +9,8 @@ vim.cmd('source $HOME/.config/nvim/general/mappings.vim')
 
 -- PLUGIN SETTINGS
 -- require('colorizer')
+-- start screen
+require('dashboard')
 
 -- VIMSCRIPT SETTINGS
 -- coc
@@ -27,8 +29,6 @@ vim.cmd('source $HOME/.config/nvim/general/mappings.vim')
  vim.cmd('source $HOME/.config/nvim/vimscript/rainbow.vim')
 -- vim-commentary
  vim.cmd('source $HOME/.config/nvim/vimscript/commentary.vim')
--- start screen
- vim.cmd('source $HOME/.config/nvim/vimscript/startify.vim')
 -- ranger
  vim.cmd('source $HOME/.config/nvim/vimscript/ranger.vim')
 -- sneak
