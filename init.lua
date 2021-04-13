@@ -8,9 +8,9 @@ vim.cmd('source $HOME/.config/nvim/general/mappings.vim')
 
 
 -- PLUGIN SETTINGS
-require('dashboard') -- start screen
--- require('telescope') -- fuzzy finder interface
--- require('colorizer')
+require('nv-dashboard') -- start screen
+require('nv-telescope') -- fuzzy finder interface
+require('nv-colorizer')
 
 -- VIMSCRIPT SETTINGS
 -- coc
