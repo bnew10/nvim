@@ -37,7 +37,10 @@ require('nv-colorizer')
  vim.cmd('source $HOME/.config/nvim/vimscript/signify.vim')
 
 
--- THEMES onedark theme
+-- THEMES
+-- onedark theme
 vim.cmd('source $HOME/.config/nvim/themes/onedark.vim')
 -- airline theme
 vim.cmd('source $HOME/.config/nvim/themes/airline.vim')
+-- personal settings
+vim.cmd('source $HOME/.config/nvim/themes/settings.vim')
