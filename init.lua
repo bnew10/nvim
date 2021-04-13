@@ -1,5 +1,4 @@
 -- plugins
--- vim.cmd('source $HOME/.config/nvim/vim-plug/plugins.vim')
 require('plugins')
 -- settings
 vim.cmd('source $HOME/.config/nvim/general/settings.vim')
