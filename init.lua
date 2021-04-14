@@ -7,14 +7,12 @@ vim.cmd('source $HOME/.config/nvim/general/mappings.vim')
 
 
 -- PLUGIN SETTINGS
--- require('nv-lualine') -- statusline
+require('nv-lualine') -- statusline
 require('nv-dashboard') -- start screen
 require('nv-telescope') -- fuzzy finder interface
 require('nv-colorizer') -- adds bg color to color codes (e.g., #1ce454)
 
 -- VIMSCRIPT SETTINGS
--- coc
-vim.cmd('source $HOME/.config/nvim/vimscript/coc.vim')
 -- quick-scope
 vim.cmd('source $HOME/.config/nvim/vimscript/quick-scope.vim')
 -- zoomwintab

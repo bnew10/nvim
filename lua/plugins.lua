@@ -26,8 +26,6 @@ return require('packer').startup(function()
   use 'PeterRincker/vim-searchlight'
   -- zoom window
   use 'troydm/zoomwintab.vim'
-  -- Conquerer of Completion
-  use { 'neoclide/coc.nvim', branch = 'release' }
   -- quicker navigation left/right on a line
   use 'unblevable/quick-scope'
   -- Full path fuzzy file, buffer, mru, tag, ... finder
