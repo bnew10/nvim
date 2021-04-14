@@ -53,6 +53,10 @@ return require('packer').startup(function()
     'nvim-telescope/telescope.nvim',
     requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
   }
+  -- icons (e.g., file icons in telescope)
+  use 'kyazdani42/nvim-web-devicons'
+  -- statusline
+  use 'hoob3rt/lualine.nvim'
   -- common config for neovim lsp
   -- use 'neovim/nvim-lspconfig'
 
