@@ -4,14 +4,14 @@ local actions = require('telescope.actions')
 require('telescope').setup {
     defaults = {
         find_command = {'rg', '--no-heading', '--with-filename', '--line-number', '--column', '--smart-case'},
-        prompt_position = "top",
+        prompt_position = "bottom",
         prompt_prefix = " ",
         selection_caret = " ",
         entry_prefix = "  ",
         initial_mode = "insert",
         selection_strategy = "reset",
         sorting_strategy = "descending",
-        layout_strategy = "horizontal",
+        layout_strategy = "flex",
         layout_defaults = {horizontal = {mirror = false}, vertical = {mirror = false}},
         file_sorter = require'telescope.sorters'.get_fuzzy_file,
         file_ignore_patterns = {},
@@ -61,3 +61,6 @@ require('telescope').setup {
         }
     }
 }
+
+vim.api.nvim_set_keymap('n', '<Leader>fz', ':Telescope find_files<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>re', ':Telescope oldfiles<CR>', {noremap = true, silent = true})
