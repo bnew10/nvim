@@ -22,8 +22,6 @@ return require('packer').startup(function()
   use { 'junegunn/fzf', run = function() fn['fzf#install']() end }
   -- commenting shortcut
   use 'tpope/vim-commentary'
-  -- airline
-  use 'vim-airline/vim-airline'
   -- highlight search matches while typing
   use 'PeterRincker/vim-searchlight'
   -- zoom window
@@ -64,9 +62,5 @@ return require('packer').startup(function()
   -- ===== THEMES =====
   -- onedark theme
   use 'joshdick/onedark.vim'
-  -- molokai theme
-  use 'tomasr/molokai'
-  -- airline theme
-  use 'vim-airline/vim-airline-themes'
 
 end)
