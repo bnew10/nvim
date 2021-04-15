@@ -1,2 +1,2 @@
 " toggle Vista
-nnoremap <silent> <leader>nvim :Vista!!<cr>
+nnoremap <silent> <leader>v :Vista!!<cr>
