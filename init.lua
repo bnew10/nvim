@@ -11,6 +11,7 @@ require('nv-lualine') -- statusline
 require('nv-dashboard') -- start screen
 require('nv-telescope') -- fuzzy finder interface
 require('nv-colorizer') -- adds bg color to color codes (e.g., #1ce454)
+require('nv-nvimtree') -- file explorer
 
 -- VIMSCRIPT SETTINGS
 -- quick-scope

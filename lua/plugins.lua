@@ -55,6 +55,8 @@ return require('packer').startup(function()
   }
   -- icons (e.g., file icons in telescope)
   use 'kyazdani42/nvim-web-devicons'
+  -- file explorer
+  use 'kyazdani42/nvim-tree.lua'
   -- statusline
   use 'hoob3rt/lualine.nvim'
   -- common config for neovim lsp
