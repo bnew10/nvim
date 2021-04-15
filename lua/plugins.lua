@@ -28,10 +28,6 @@ return require('packer').startup(function()
   use 'troydm/zoomwintab.vim'
   -- quicker navigation left/right on a line
   use 'unblevable/quick-scope'
-  -- Full path fuzzy file, buffer, mru, tag, ... finder
-  use 'ctrlpvim/ctrlp.vim'
-  -- simple function navigator for ctrlp.vim
-  use 'tacahiroy/ctrlp-funky'
   -- return to previous file location upon reopening
   use 'farmergreg/vim-lastplace'
   -- sidebar showing file symbols/tags
@@ -42,8 +38,6 @@ return require('packer').startup(function()
   use 'glepnir/dashboard-nvim'
   -- inline colorizer for color codes
   use 'norcalli/nvim-colorizer.lua'
-  -- plugin for ranger integration
-  use { 'kevinhwang91/rnvimr', run = 'make sync' }
   -- like quick-scope but for vertical cursor movement
   use 'justinmk/vim-sneak'
   -- shows added, modified, or removed lines for git

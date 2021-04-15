@@ -18,16 +18,12 @@ require('nv-nvimtree') -- file explorer
 vim.cmd('source $HOME/.config/nvim/vimscript/quick-scope.vim')
 -- zoomwintab
 vim.cmd('source $HOME/.config/nvim/vimscript/zoomwintab.vim')
--- ctrlp
-vim.cmd('source $HOME/.config/nvim/vimscript/ctrlp.vim')
 -- vista
 vim.cmd('source $HOME/.config/nvim/vimscript/vista.vim')
 -- rainbow
 vim.cmd('source $HOME/.config/nvim/vimscript/rainbow.vim')
 -- vim-commentary
 vim.cmd('source $HOME/.config/nvim/vimscript/commentary.vim')
--- ranger
-vim.cmd('source $HOME/.config/nvim/vimscript/ranger.vim')
 -- sneak
 vim.cmd('source $HOME/.config/nvim/vimscript/sneak.vim')
 -- signify
