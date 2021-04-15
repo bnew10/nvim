@@ -18,8 +18,6 @@ return require('packer').startup(function()
   use 'sheerun/vim-polyglot'
   -- Auto pairs for '(' '[' '{'
   use 'jiangmiao/auto-pairs'
-  -- Fuzzy finder
-  use { 'junegunn/fzf', run = function() fn['fzf#install']() end }
   -- commenting shortcut
   use 'tpope/vim-commentary'
   -- highlight search matches while typing
@@ -45,7 +43,7 @@ return require('packer').startup(function()
   -- highly extendable fuzzy finder over lists
   use {
     'nvim-telescope/telescope.nvim',
-    requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+    requires = {'nvim-lua/popup.nvim', 'nvim-lua/plenary.nvim'}
   }
   -- icons (e.g., file icons in telescope)
   use 'kyazdani42/nvim-web-devicons'
