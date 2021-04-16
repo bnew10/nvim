@@ -55,6 +55,8 @@ return require('packer').startup(function()
   use 'neovim/nvim-lspconfig'
   -- auto-complete
   use 'hrsh7th/nvim-compe'
+  -- easy lsp install
+  use 'kabouzeid/nvim-lspinstall'
 
 
   -- ===== THEMES =====
