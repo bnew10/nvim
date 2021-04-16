@@ -52,7 +52,9 @@ return require('packer').startup(function()
   -- statusline
   use 'hoob3rt/lualine.nvim'
   -- common config for neovim lsp
-  -- use 'neovim/nvim-lspconfig'
+  use 'neovim/nvim-lspconfig'
+  -- auto-complete
+  use 'hrsh7th/nvim-compe'
 
 
   -- ===== THEMES =====
