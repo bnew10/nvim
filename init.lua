@@ -1,9 +1,7 @@
--- plugins
 require('plugins')
--- settings
-vim.cmd('source $HOME/.config/nvim/general/settings.vim')
--- key mappings
-vim.cmd('source $HOME/.config/nvim/general/mappings.vim')
+require('nv-globals')
+vim.cmd('source $HOME/.config/nvim/general/settings.vim') -- settings
+vim.cmd('source $HOME/.config/nvim/general/mappings.vim') -- key mappings
 
 
 -- PLUGIN SETTINGS
@@ -17,6 +15,7 @@ require('nv-compe') -- auto-complete
 
 -- LSP
 require('lsp')
+require('lsp.lua-ls')
 
 
 -- VIMSCRIPT SETTINGS
