@@ -15,6 +15,7 @@ require('nv-compe') -- auto-complete
 -- LSP
 require('lsp')
 require('lsp.lua-ls')
+require('lsp.python-ls')
 
 
 -- VIMSCRIPT SETTINGS
