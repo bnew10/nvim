@@ -57,6 +57,8 @@ return require('packer').startup(function(use)
   use 'hrsh7th/nvim-compe'
   -- easy lsp install
   use 'kabouzeid/nvim-lspinstall'
+  -- pictograms for lsp completion items
+  use 'onsails/lspkind-nvim'
 
 
   -- ===== THEMES =====
