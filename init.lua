@@ -17,6 +17,7 @@ require('lsp')
 require('lsp.lua-ls')
 require('lsp.python-ls')
 require('lsp.clangd-ls')
+require('lsp.vim-ls')
 
 
 -- VIMSCRIPT SETTINGS
