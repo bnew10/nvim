@@ -61,6 +61,8 @@ return require('packer').startup(function(use)
   use 'onsails/lspkind-nvim'
   -- bufferline
   use {'romgrk/barbar.nvim', requires = 'kyazdani42/nvim-web-devicons'}
+  -- indent lines
+  use {'lukas-reineke/indent-blankline.nvim', branch = 'lua'}
 
 
   -- ===== THEMES =====

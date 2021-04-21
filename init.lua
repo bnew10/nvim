@@ -13,6 +13,7 @@ require('nv-nvimtree') -- file explorer
 require('nv-compe') -- auto-complete
 require('nv-lspkind') -- auto-complete pictograms
 require('nv-barbar') -- bufferline
+require('nv-indentline') -- indent lines
 
 -- LSP
 require('lsp')
