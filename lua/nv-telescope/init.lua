@@ -65,3 +65,5 @@ require('telescope').setup {
 vim.api.nvim_set_keymap('n', '<Leader>fz', ':Telescope find_files<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>re', ':Telescope oldfiles<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>gr', ':Telescope live_grep<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>di', ':Telescope lsp_document_diagnostics<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>sy', ':Telescope lsp_document_symbols<CR>', {noremap = true, silent = true})
