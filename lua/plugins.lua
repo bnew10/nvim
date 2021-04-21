@@ -59,6 +59,8 @@ return require('packer').startup(function(use)
   use 'kabouzeid/nvim-lspinstall'
   -- pictograms for lsp completion items
   use 'onsails/lspkind-nvim'
+  -- bufferline
+  use {'romgrk/barbar.nvim', requires = 'kyazdani42/nvim-web-devicons'}
 
 
   -- ===== THEMES =====
