@@ -1,14 +1,14 @@
 require('lualine').setup {
-  options = { 
+  options = {
     theme = 'onedark',
-    section_separators = '', 
-    component_separators = '',
+    section_separators = {'', ''},
+    component_separators = ''
   },
   sections = {
-    lualine_a = {'mode'},
-    lualine_b = { 
-      {'branch'}, 
-      {'diff', color_added = '#2ecc71', color_modified = '#f1c40f', color_removed = '#e74c3c'  } 
+    lualine_a = {},
+    lualine_b = {
+      {'branch'},
+      {'diff', color_added = '#2ecc71', color_modified = '#f1c40f', color_removed = '#e74c3c'  }
     },
     lualine_c = {
       {'filename', full_path = true, shorten = true}
