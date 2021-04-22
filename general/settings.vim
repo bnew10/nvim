@@ -41,3 +41,4 @@ set inccommand=nosplit                  " shows the effects of substitute (and o
 set pastetoggle=<F2>                    " toggles paste mode
 set matchpairs+=<:>                     " add < > pairs to % command
 set termguicolors                       " Enables 24-bit RGB color in the TUI
+set colorcolumn=99999                   " temp fix for indentline highlight issue
