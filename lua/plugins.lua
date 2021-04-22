@@ -32,8 +32,6 @@ return require('packer').startup(function(use)
   use 'liuchengxu/vista.vim'
   -- colorize parens, brackets, etc. based on nesting level
   use 'junegunn/rainbow_parentheses.vim'
-  -- nice start screen
-  use 'glepnir/dashboard-nvim'
   -- inline colorizer for color codes
   use 'norcalli/nvim-colorizer.lua'
   -- like quick-scope but for vertical cursor movement
