@@ -13,6 +13,7 @@ require('nv-compe') -- auto-complete
 require('nv-lspkind') -- auto-complete pictograms
 require('nv-barbar') -- bufferline
 require('nv-indentline') -- indent lines
+require('nv-treesitter') -- easier interface for neovim builtin tree-sitter
 
 -- LSP
 require('lsp')
