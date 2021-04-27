@@ -1,7 +1,7 @@
 require('plugins')
 require('nv-globals')
-vim.cmd('source $HOME/.config/nvim/general/settings.vim') -- settings
-vim.cmd('source $HOME/.config/nvim/general/mappings.vim') -- key mappings
+require('settings')
+require('keymappings')
 
 
 -- PLUGIN SETTINGS
