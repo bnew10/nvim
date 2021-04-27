@@ -40,8 +40,8 @@ return require('packer').startup(function(use)
 	use {'lewis6991/gitsigns.nvim', requires = 'nvim-lua/plenary.nvim'}
 	-- highly extendable fuzzy finder over lists
 	use {
-	'nvim-telescope/telescope.nvim',
-	requires = {'nvim-lua/popup.nvim', 'nvim-lua/plenary.nvim'}
+		'nvim-telescope/telescope.nvim',
+		requires = {'nvim-lua/popup.nvim', 'nvim-lua/plenary.nvim'}
 	}
 	-- icons (e.g., file icons in telescope)
 	use 'kyazdani42/nvim-web-devicons'
