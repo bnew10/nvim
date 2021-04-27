@@ -14,6 +14,7 @@ require('nv-lspkind') -- auto-complete pictograms
 require('nv-barbar') -- bufferline
 require('nv-indentline') -- indent lines
 require('nv-treesitter') -- easier interface for neovim builtin tree-sitter
+require('nv-gitsigns') -- signs for added/removed/changed lines and other git features
 
 -- LSP
 require('lsp')
@@ -36,12 +37,10 @@ vim.cmd('source $HOME/.config/nvim/vimscript/rainbow.vim')
 vim.cmd('source $HOME/.config/nvim/vimscript/commentary.vim')
 -- sneak
 vim.cmd('source $HOME/.config/nvim/vimscript/sneak.vim')
--- signify
-vim.cmd('source $HOME/.config/nvim/vimscript/signify.vim')
 
 
 -- THEMES
 -- onedark theme
-vim.cmd('source $HOME/.config/nvim/themes/onedark.vim')
+-- vim.cmd('source $HOME/.config/nvim/themes/onedark.vim')
 -- personal settings
 vim.cmd('source $HOME/.config/nvim/themes/settings.vim')
