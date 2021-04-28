@@ -38,8 +38,3 @@ vim.cmd('source $HOME/.config/nvim/vimscript/rainbow.vim')
 vim.cmd('source $HOME/.config/nvim/vimscript/commentary.vim')
 -- sneak
 vim.cmd('source $HOME/.config/nvim/vimscript/sneak.vim')
-
-
--- THEMES
--- personal settings
-vim.cmd('source $HOME/.config/nvim/themes/settings.vim')
