@@ -18,10 +18,9 @@ require'compe'.setup {
         path = {kind = "  "},
         buffer = {kind = "  "},
         calc = {kind = "  "},
-        vsnip = {kind = "  "},
+        vsnip = false,
         nvim_lsp = {kind = "  "},
         -- nvim_lua = {kind = "  "},
-        nvim_lua = false,
         spell = {kind = "  "},
         tags = false,
         vim_dadbod_completion = true,
@@ -29,7 +28,6 @@ require'compe'.setup {
         -- ultisnips = {kind = "  "},
         -- treesitter = {kind = "  "},
         emoji = {kind = " ﲃ ", filetypes={"markdown", "text"}}
-        -- for emoji press : (idk if that in compe tho)
     }
 }
 
@@ -74,12 +72,9 @@ end
 
 -- Use (s-)tab to:
 --- move to prev/next item in completion menuone
---- jump to prev/next snippet's placeholder
 _G.tab_complete = function()
     if vim.fn.pumvisible() == 1 then
         return t "<C-n>"
-    -- elseif vim.fn.call("vsnip#available", {1}) == 1 then
-        -- return t "<Plug>(vsnip-expand-or-jump)"
     elseif check_back_space() then
         return t "<Tab>"
     else
@@ -89,8 +84,6 @@ end
 _G.s_tab_complete = function()
     if vim.fn.pumvisible() == 1 then
         return t "<C-p>"
-    -- elseif vim.fn.call("vsnip#jumpable", {-1}) == 1 then
-        -- return t "<Plug>(vsnip-jump-prev)"
     else
         return t "<S-Tab>"
     end
