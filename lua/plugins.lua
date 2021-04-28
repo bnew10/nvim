@@ -65,5 +65,7 @@ return require('packer').startup(function(use)
 	use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
     -- base16 theme tool
     use 'norcalli/nvim-base16.lua'
+    -- highly performant UI for lsp functionality
+    use 'glepnir/lspsaga.nvim'
 
 end)
