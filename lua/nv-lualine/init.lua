@@ -8,7 +8,7 @@ require('lualine').setup {
     lualine_a = {},
     lualine_b = {
       {'branch'},
-      {'diff', color_added = '#2ecc71', color_modified = '#f1c40f', color_removed = '#e74c3c'  }
+      {'diff', color_added = O.green, color_modified = O.yellow, color_removed = O.red}
     },
     lualine_c = {
       {'filename', full_path = true, shorten = true}
