@@ -2,6 +2,7 @@ require('plugins')
 require('nv-globals')
 require('settings')
 require('keymappings')
+require('colorscheme')
 
 
 -- PLUGIN SETTINGS
@@ -40,7 +41,5 @@ vim.cmd('source $HOME/.config/nvim/vimscript/sneak.vim')
 
 
 -- THEMES
--- onedark theme
--- vim.cmd('source $HOME/.config/nvim/themes/onedark.vim')
 -- personal settings
 vim.cmd('source $HOME/.config/nvim/themes/settings.vim')

@@ -63,10 +63,7 @@ return require('packer').startup(function(use)
 	use {'lukas-reineke/indent-blankline.nvim', branch = 'lua'}
 	-- easier interface with tree-sitter
 	use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
-
-
-	-- ===== THEMES =====
-	-- onedark theme
-	use 'joshdick/onedark.vim'
+    -- base16 theme tool
+    use 'norcalli/nvim-base16.lua'
 
 end)
