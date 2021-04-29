@@ -5,7 +5,7 @@ vim.api.nvim_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', 
 vim.api.nvim_set_keymap('n', 'ca', '<cmd>Lspsaga code_action<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', 'K', '<cmd>Lspsaga hover_doc<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', 'R', '<cmd>Lspsaga rename<CR>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<C-k>', '<cmd>Lspsaga signature_help<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<C-m>', '<cmd>Lspsaga signature_help<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-n>', '<cmd>Lspsaga diagnostic_jump_next<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-p>', '<cmd>Lspsaga diagnostic_jump_prev<CR>', {noremap = true, silent = true})
 -- scroll down hover doc or scroll in definition preview
