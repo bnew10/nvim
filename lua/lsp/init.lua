@@ -15,3 +15,7 @@ vim.api.nvim_set_keymap('n', '<C-b>', '<cmd>lua require("lspsaga.action").smart_
 -- terminal
 vim.api.nvim_set_keymap('n', '<A-d>', '<cmd>Lspsaga open_floaterm<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('t', '<A-d>', '<C-\\><C-n><cmd>Lspsaga close_floaterm<CR>', {noremap = true, silent = true})
+
+-- show diagnostic when hovering over text
+vim.cmd('autocmd CursorHold * lua vim.lsp.diagnostic.show_line_diagnostics()')
+vim.cmd('autocmd CursorHoldI * silent! lua vim.lsp.buf.signature_help()')
