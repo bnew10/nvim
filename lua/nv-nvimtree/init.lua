@@ -27,7 +27,7 @@ vim.g.nvim_tree_bindings = {
     ["<C-r>"] = tree_cb("full_rename"),
     ["x"] = tree_cb("cut"),
     ["<C-c>"] = tree_cb("copy"),
-    ["p"] = tree_cb("paste"),
+    ["<C-v>"] = tree_cb("paste"),
     ["<BS>"] = tree_cb("dir_up"),
     ["q"] = tree_cb("close")
 }
