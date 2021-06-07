@@ -14,7 +14,6 @@ vim.o.mouse = "a" -- Enable your mouse
 vim.o.splitbelow = true -- Horizontal splits will automatically be below
 vim.o.splitright = true -- Vertical splits will automatically be to the right
 vim.o.termguicolors = true -- set term gui colors most terminals support this
-vim.o.t_Co = "256" -- Support 256 colors
 vim.o.conceallevel = 0 -- So that I can see `` in markdown files
 vim.cmd('set tabstop=4') -- Insert 4 spaces for a tab
 vim.cmd('set shiftwidth=4') -- Change the number of space characters inserted for indentation
