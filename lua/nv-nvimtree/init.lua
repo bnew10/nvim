@@ -12,7 +12,7 @@ vim.g.nvim_tree_bindings = {
     -- mappings
     ["<CR>"] = tree_cb("edit"),
     ["l"] = tree_cb("edit"),
-    ["cd"] = tree_cb("cd"),
+    ["g"] = tree_cb("cd"),
     ["v"] = tree_cb("vsplit"),
     ["s"] = tree_cb("split"),
     ["h"] = tree_cb("close_node"),
