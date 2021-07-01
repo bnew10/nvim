@@ -8,44 +8,36 @@ vim.g.nvim_tree_hijack_netrw = 0
 vim.g.nvim_tree_disable_netrw = 0
 
 local tree_cb = require'nvim-tree.config'.nvim_tree_callback
+vim.g.nvim_tree_disable_default_keybindings = 1
 vim.g.nvim_tree_bindings = {
-    -- mappings
-    ["<CR>"] = tree_cb("edit"),
-    ["l"] = tree_cb("edit"),
-    ["g"] = tree_cb("cd"),
-    ["v"] = tree_cb("vsplit"),
-    ["s"] = tree_cb("split"),
-    ["h"] = tree_cb("close_node"),
-    ["f"] = tree_cb("parent_node"),
-    ["<Tab>"] = tree_cb("preview"),
-    ["I"] = tree_cb("toggle_ignored"),
-    ["H"] = tree_cb("toggle_dotfiles"),
-    ["R"] = tree_cb("refresh"),
-    ["a"] = tree_cb("create"),
-    ["d"] = tree_cb("remove"),
-    ["r"] = tree_cb("rename"),
-    ["<C-r>"] = tree_cb("full_rename"),
-    ["x"] = tree_cb("cut"),
-    ["<C-c>"] = tree_cb("copy"),
-    ["<C-v>"] = tree_cb("paste"),
-    ["<BS>"] = tree_cb("dir_up"),
-    ["q"] = tree_cb("close")
+    { key = 'g',     cb = tree_cb('cd') },
+    { key = 'l',     cb = tree_cb('edit') },
+    { key = '<BS>',  cb = tree_cb('close_node') },
+    { key = '<Tab>', cb = tree_cb('preview') },
+    { key = 'R',     cb = tree_cb('refresh') },
+    { key = 'a',     cb = tree_cb('create') },
+    { key = 'd',     cb = tree_cb('remove') },
+    { key = 'r',     cb = tree_cb('rename') },
+    { key = '-',     cb = tree_cb('dir_up') },
+    { key = 'q',     cb = tree_cb('close') },
+    { key = 'v',     cb = tree_cb('vsplit') },
+    { key = 'x',     cb = tree_cb('split') },
 }
 vim.g.nvim_tree_icons = {
     default = '',
     symlink = '',
     git = {
-        unstaged = "✗",
-        staged = "✓",
-        unmerged = "",
-        renamed = "➜",
-        untracked = ""
+        unstaged = '✗',
+        staged = '✓',
+        unmerged = '',
+        renamed = '➜',
+        untracked = ''
     },
     folder = {
-        default = "",
-        open = "",
-        empty = "",
-        empty_open = "",
-        symlink = ""
+        default = '',
+        open = '',
+        empty = '',
+        empty_open = '',
+        symlink = ''
     }
 }
