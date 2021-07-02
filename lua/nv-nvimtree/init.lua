@@ -12,6 +12,7 @@ vim.g.nvim_tree_disable_default_keybindings = 1
 vim.g.nvim_tree_bindings = {
     { key = 'g',     cb = tree_cb('cd') },
     { key = 'l',     cb = tree_cb('edit') },
+    { key = '<CR>',  cb = tree_cb('edit') },
     { key = '<BS>',  cb = tree_cb('close_node') },
     { key = '<Tab>', cb = tree_cb('preview') },
     { key = 'R',     cb = tree_cb('refresh') },
