@@ -60,7 +60,7 @@ return require('packer').startup(function(use)
 	-- bufferline
 	use {'romgrk/barbar.nvim', requires = 'kyazdani42/nvim-web-devicons'}
 	-- indent lines
-	use {'lukas-reineke/indent-blankline.nvim', branch = 'lua'}
+	use 'lukas-reineke/indent-blankline.nvim'
 	-- easier interface with tree-sitter
 	use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
     -- base16 theme tool
