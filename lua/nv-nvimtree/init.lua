@@ -17,6 +17,8 @@ vim.g.nvim_tree_bindings = {
     { key = '<Tab>', cb = tree_cb('preview') },
     { key = 'R',     cb = tree_cb('refresh') },
     { key = 'a',     cb = tree_cb('create') },
+    { key = "c",     cb = tree_cb("copy") },
+    { key = "p",     cb = tree_cb("paste") },
     { key = 'd',     cb = tree_cb('remove') },
     { key = 'r',     cb = tree_cb('rename') },
     { key = '-',     cb = tree_cb('dir_up') },
