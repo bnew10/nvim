@@ -23,8 +23,7 @@ require('gitsigns').setup {
   watch_index = {
     interval = 1000
   },
-  update_debounce = 200,
-  use_decoration_api = false
+  update_debounce = 200
 }
 
 local cmd = vim.cmd
