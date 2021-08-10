@@ -22,6 +22,7 @@ vim.g.nvim_tree_bindings = {
     { key = 'd',     cb = tree_cb('remove') },
     { key = 'r',     cb = tree_cb('rename') },
     { key = '-',     cb = tree_cb('dir_up') },
+    { key = 'P',     cb = tree_cb('parent_node') },
     { key = 'q',     cb = tree_cb('close') },
     { key = 'v',     cb = tree_cb('vsplit') },
     { key = 'x',     cb = tree_cb('split') },
