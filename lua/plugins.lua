@@ -14,8 +14,6 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
-	-- Better Syntax Support
-	use 'sheerun/vim-polyglot'
 	-- Auto pairs for '(' '[' '{'
 	use 'jiangmiao/auto-pairs'
 	-- commenting shortcut
