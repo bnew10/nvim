@@ -16,6 +16,7 @@ require('nv-barbar') -- bufferline
 require('nv-indentline') -- indent lines
 require('nv-treesitter') -- easier interface for neovim builtin tree-sitter
 require('nv-gitsigns') -- signs for added/removed/changed lines and other git features
+require('nv-rainbow') -- colorize parens, brackets, etc.
 
 -- LSP
 require('lsp')
@@ -32,8 +33,6 @@ vim.cmd('source $HOME/.config/nvim/vimscript/quick-scope.vim')
 vim.cmd('source $HOME/.config/nvim/vimscript/zoomwintab.vim')
 -- vista
 vim.cmd('source $HOME/.config/nvim/vimscript/vista.vim')
--- rainbow
-vim.cmd('source $HOME/.config/nvim/vimscript/rainbow.vim')
 -- vim-commentary
 vim.cmd('source $HOME/.config/nvim/vimscript/commentary.vim')
 -- sneak

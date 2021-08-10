@@ -30,8 +30,6 @@ return require('packer').startup(function(use)
 	use 'farmergreg/vim-lastplace'
 	-- sidebar showing file symbols/tags
 	use 'liuchengxu/vista.vim'
-	-- colorize parens, brackets, etc. based on nesting level
-	use 'junegunn/rainbow_parentheses.vim'
 	-- inline colorizer for color codes
 	use 'norcalli/nvim-colorizer.lua'
 	-- like quick-scope but for vertical cursor movement
@@ -67,5 +65,7 @@ return require('packer').startup(function(use)
     use 'norcalli/nvim-base16.lua'
     -- highly performant UI for lsp functionality
     use 'glepnir/lspsaga.nvim'
+    -- colorize parens, brackets, etc.
+    use 'p00f/nvim-ts-rainbow'
 
 end)
