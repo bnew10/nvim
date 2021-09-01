@@ -24,6 +24,7 @@ require('lsp.lua-ls')
 require('lsp.python-ls')
 require('lsp.clangd-ls')
 require('lsp.vim-ls')
+require('lsp.jdtls-ls')
 
 
 -- VIMSCRIPT SETTINGS
