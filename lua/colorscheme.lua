@@ -12,3 +12,5 @@ cmd 'hi EndOfBuffer guifg=#1e222a'
 cmd 'hi PmenuSel guibg=#98c379'
 
 cmd 'hi Normal guibg=NONE ctermbg=NONE'
+
+cmd 'hi Comment guifg=#6c717d'
