@@ -24,8 +24,6 @@ vim.g.nvim_tree_icons = {
 
 local tree_cb = require'nvim-tree.config'.nvim_tree_callback
 require'nvim-tree'.setup {
-	disable_netrw = true,
-	hijack_netrw = true,
 	auto_close = true,
 	update_focused_file = {
 		enable = true,
