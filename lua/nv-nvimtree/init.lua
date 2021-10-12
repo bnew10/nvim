@@ -30,6 +30,7 @@ require'nvim-tree'.setup {
 		update_cwd = true
 	},
 	view = {
+		auto_resize = true,
 		mappings = {
 			custom_only = true,
 			list = {
