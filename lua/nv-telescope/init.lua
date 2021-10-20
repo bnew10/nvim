@@ -16,7 +16,8 @@ require('telescope').setup {
             prompt_position = "bottom",
             horizontal = {mirror = false},
             vertical = {mirror = false},
-            flex = {flip_columns = 145}
+            -- flex = {flip_columns = 145}
+            flex = {flip_columns = 179}
         },
         file_sorter = require'telescope.sorters'.get_fuzzy_file,
         file_ignore_patterns = {},
