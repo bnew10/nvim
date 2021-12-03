@@ -15,7 +15,7 @@ require('gitsigns').setup {
     ['n <Leader>gj'] = '<cmd>lua require"gitsigns".next_hunk()<CR>',
     ['n <Leader>gk'] = '<cmd>lua require"gitsigns".prev_hunk()<CR>',
     ['n <Leader>gb'] = '<cmd>lua require"gitsigns".blame_line()<CR>',
-	['n <leader>gs'] = '<cmd>lua require"gitsigns".stage_hunk()<CR>',
+    ['n <leader>gs'] = '<cmd>lua require"gitsigns".stage_hunk()<CR>',
     ['n <leader>gu'] = '<cmd>lua require"gitsigns".undo_stage_hunk()<CR>',
     ['n <leader>ge'] = '<cmd>lua require"gitsigns".reset_hunk()<CR>',
     ['n <leader>gp'] = '<cmd>lua require"gitsigns".preview_hunk()<CR>',
