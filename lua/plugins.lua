@@ -50,7 +50,7 @@ return require('packer').startup(function(use)
     -- auto-complete
     use 'hrsh7th/nvim-compe'
     -- easy lsp install
-    use 'kabouzeid/nvim-lspinstall'
+    use 'williamboman/nvim-lsp-installer'
     -- pictograms for lsp completion items
     use 'onsails/lspkind-nvim'
     -- bufferline
