@@ -26,6 +26,10 @@ require('lsp.clangd-ls')
 require('lsp.vim-ls')
 require('lsp.jdtls-ls')
 
+-- DEBUG
+require('debug.adapters')
+require('debug.cpp')
+
 
 -- VIMSCRIPT SETTINGS
 -- quick-scope
