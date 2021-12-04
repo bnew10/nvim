@@ -1,5 +1,6 @@
 -- https://github.com/sumneko/lua-language-server/wiki/Build-and-Run-(Standalone)
-local sumneko_root_path = DATA_PATH .. "/lsp_servers/sumneko_lua/extension/server/bin/Linux"
+-- local sumneko_root_path = DATA_PATH .. "/lsp_servers/sumneko_lua/extension/server/bin/Linux"
+local sumneko_root_path = DATA_PATH .. "/lsp_servers/sumneko_lua/extension/server/bin/macOS"
 local sumneko_binary = sumneko_root_path .. "/lua-language-server"
 
 require'lspconfig'.sumneko_lua.setup {

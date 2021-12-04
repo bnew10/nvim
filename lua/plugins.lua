@@ -65,5 +65,7 @@ return require('packer').startup(function(use)
     use 'glepnir/lspsaga.nvim'
     -- colorize parens, brackets, etc.
     use 'p00f/nvim-ts-rainbow'
+    -- Debug Adapter Protocol
+    use 'mfussenegger/nvim-dap'
 
 end)
