@@ -5,3 +5,5 @@ O = {
 }
 
 DATA_PATH = vim.fn.stdpath('data')
+
+OS = jit.os
