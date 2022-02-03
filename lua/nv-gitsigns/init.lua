@@ -20,7 +20,7 @@ require('gitsigns').setup {
     ['n <leader>ge'] = '<cmd>lua require"gitsigns".reset_hunk()<CR>',
     ['n <leader>gp'] = '<cmd>lua require"gitsigns".preview_hunk()<CR>',
   },
-  watch_index = {
+  watch_gitdir = {
     interval = 1000
   },
   update_debounce = 200
