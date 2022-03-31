@@ -1,7 +1,6 @@
 vim.api.nvim_set_keymap('n', '<Leader>e', ':NvimTreeFindFile<CR>', {noremap = true, silent = true})
 
 vim.g.nvim_tree_indent_markers = 1
-vim.g.nvim_tree_quit_on_open = 1
 
 vim.g.nvim_tree_icons = {
     default = '',
@@ -24,11 +23,16 @@ vim.g.nvim_tree_icons = {
 
 local tree_cb = require'nvim-tree.config'.nvim_tree_callback
 require'nvim-tree'.setup {
-	auto_close = true,
 	update_focused_file = {
 		enable = true,
 		update_cwd = true
 	},
+    actions = {
+        open_file = {
+            quit_on_open = true,
+            resize_window = true
+        },
+    },
 	view = {
 		auto_resize = true,
 		mappings = {
