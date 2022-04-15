@@ -1,7 +1,5 @@
 vim.api.nvim_set_keymap('n', '<Leader>e', ':NvimTreeFindFile<CR>', {noremap = true, silent = true})
 
-vim.g.nvim_tree_indent_markers = 1
-
 vim.g.nvim_tree_icons = {
     default = '',
     symlink = '',
@@ -32,6 +30,11 @@ require'nvim-tree'.setup {
             quit_on_open = true,
             resize_window = true
         },
+    },
+    renderer = {
+        indent_markers = {
+            enable = true
+        }
     },
 	view = {
 		auto_resize = true,
