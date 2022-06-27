@@ -1,24 +1,5 @@
 vim.api.nvim_set_keymap('n', '<Leader>e', ':NvimTreeFindFile<CR>', {noremap = true, silent = true})
 
-vim.g.nvim_tree_icons = {
-    default = '',
-    symlink = '',
-    git = {
-        unstaged = '✗',
-        staged = '✓',
-        unmerged = '',
-        renamed = '➜',
-        untracked = ''
-    },
-    folder = {
-        default = '',
-        open = '',
-        empty = '',
-        empty_open = '',
-        symlink = ''
-    }
-}
-
 local tree_cb = require'nvim-tree.config'.nvim_tree_callback
 require'nvim-tree'.setup {
 	update_focused_file = {
@@ -34,10 +15,29 @@ require'nvim-tree'.setup {
     renderer = {
         indent_markers = {
             enable = true
+        },
+        icons = {
+            glyphs = {
+                default = '',
+                symlink = '',
+                git = {
+                    unstaged = '✗',
+                    staged = '✓',
+                    unmerged = '',
+                    renamed = '➜',
+                    untracked = ''
+                },
+                folder = {
+                    default = '',
+                    open = '',
+                    empty = '',
+                    empty_open = '',
+                    symlink = ''
+                }
+            }
         }
     },
 	view = {
-		auto_resize = true,
 		mappings = {
 			custom_only = true,
 			list = {
